@@ -1,0 +1,71 @@
+body {
+    background-color: #F0F0F0;
+}
+
+@font-face {
+    font-family: "Cormorant", serif;
+    src: url('https://fonts.googleapis.com/css?family=Cormorant&display=swap')
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+    letter-spacing: 0.2em;
+    word-spacing: 0.4em;
+    font-family: "Cormorant", serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: Garamond;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+    color: 	#404040;
+    font-style: italic;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #F0F0F0;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=email] {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 8px 0px 0px 8px;
+    border: 2px solid black;
+    width: 30em;
+}
+
+input[type=email]:hover {
+    background-color: #E8E8E8;
+}
+
+button {
+    background-color: #707070;
+    border: 2px solid black;
+    border-radius: 0px 8px 8px 0px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #D8D8D8;
+    color: black;
+}
+
+button:active {
+  background-color: #FF4500;
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}

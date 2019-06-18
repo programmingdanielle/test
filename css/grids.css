@@ -1,0 +1,80 @@
+body {
+    background-color: #ccc;
+}
+
+h1 {
+    font-family: Impact;
+    letter-spacing: 0.3em;
+    font-size: 3em;
+    word-spacing: 0.5em;
+}
+
+.wrapper {
+    display: grid;
+    grid-auto-columns: minmax(30%; auto);
+    grid-auto-rows: minmax(25%; auto);
+    font-family: Arial;
+}
+
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: end;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: white;
+}
+
+.item2 {
+    padding: 10px;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.item1,
+.item2 {
+    background-color: yellow;
+}
+
+.item3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+}
+
+.item4 {
+    grid-column: 1 / 4;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.item5 {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+
+.item6 {
+    grid-row: 4;
+    grid-column: 1 / 5;
+    padding: 10px;
+    background-color: fuchsia;
+    text-align: center;
+}
+
+.dragon {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.dragon img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    
+}
